@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class EnemyControler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform jugador; // Referencia al transform del jugador
+    public float velocidad = 5f; // Velocidad de movimiento del enemigo
+
+    private void Start()
     {
-        
+        if (jugador != null )
+        {
+         GetComponent<Transform>();
+
+        }else
+        {
+            return;
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // Calcula la dirección hacia la que debe moverse el enemigo para alcanzar al jugador
+        Vector3 direccion = (jugador.position - transform.position).normalized;
+
+        // Calcula la nueva posición del enemigo
+        Vector3 nuevaPosicion = transform.position + direccion * velocidad * Time.deltaTime;
+
+        // Mueve al enemigo hacia la nueva posición
+        transform.position = nuevaPosicion;
     }
 }
