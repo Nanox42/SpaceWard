@@ -1447,8 +1447,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: -5}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -58, y: -30}
+  m_SizeDelta: {x: 120.1, y: 50}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1105046537
 MonoBehaviour:
@@ -1470,7 +1470,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '0000
+  m_text: 'Score 0
 
 '
   m_isRightToLeft: 0
@@ -1868,6 +1868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+  textScore: {fileID: 1105046537}
 --- !u!4 &1374379884
 Transform:
   m_ObjectHideFlags: 0
@@ -2208,6 +2209,10 @@ PrefabInstance:
     - target: {fileID: 2563607313909953027, guid: 09df9843d2a8e2d44b92678c99ceb100, type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563607313909953034, guid: 09df9843d2a8e2d44b92678c99ceb100, type: 3}
+      propertyPath: shotRate
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 2563607313909953039, guid: 09df9843d2a8e2d44b92678c99ceb100, type: 3}
       propertyPath: m_RootOrder
