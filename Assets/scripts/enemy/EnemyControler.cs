@@ -6,7 +6,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class EnemyControler : MonoBehaviour
 {
     public Transform jugador; 
-    public float velocidad = 5f; 
+    [SerializeField] float velocidad = 5f; 
     public GameObject objScore;
     public int puntos;
 
@@ -29,7 +29,7 @@ public class EnemyControler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Bullet")
+        if (other.tag == "Bullet" || other.tag == "Player")
         {
             objScore.GetComponent<ScoreManager>().score += puntos;
             //ScoreManager.instance.score += puntos;
