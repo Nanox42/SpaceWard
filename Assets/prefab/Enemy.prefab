@@ -113,3 +113,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jugador: {fileID: 0}
   velocidad: 5
+  objScore: {fileID: 0}
+  puntos: 50

@@ -38,4 +38,3 @@ public class MoveControler : MonoBehaviour
         transform.rotation = Quaternion.Euler(new Vector3(0, -angle, 0));
     }
 }
-//transform.position = Vector3.MoveTowards(transform.position, jugador.position, velocidad * Time.deltaTime); 
