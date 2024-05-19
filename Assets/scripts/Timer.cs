@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI textMeshPro;
+    [SerializeField] TextMeshProUGUI textTimer;
     private float timer;
     private int minutos, segundos;
 
@@ -16,6 +16,6 @@ public class Timer : MonoBehaviour
         minutos = (int)(timer / 60f);
         segundos = (int)(timer - minutos * 60f);
 
-        textMeshPro.text = string.Format("Tiempo {0}:{1}", minutos, segundos);
+        textTimer.text = string.Format("Tiempo {0}:{1}", minutos, segundos);
     }
 }

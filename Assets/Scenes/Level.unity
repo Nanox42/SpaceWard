@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigoPrefab: {fileID: 5134318620634323673, guid: 35ee61380f6dad24088c90cf86995dd2, type: 3}
-  frecuenciaDeGeneracion: 3
+  frecuenciaDeGeneracion: 7
   puntoDeGeneracion: {fileID: 470353197}
   player: {fileID: 567040391}
 --- !u!1 &567040391 stripped
@@ -1331,7 +1331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6691e87efc1aab14bb9e19c4d30897fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMeshPro: {fileID: 724183473}
+  textTimer: {fileID: 724183473}
 --- !u!1 &760319435
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,7 +1639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigoPrefab: {fileID: 5134318620634323673, guid: 35ee61380f6dad24088c90cf86995dd2, type: 3}
-  frecuenciaDeGeneracion: 4
+  frecuenciaDeGeneracion: 10
   puntoDeGeneracion: {fileID: 971067985}
   player: {fileID: 567040391}
 --- !u!1001 &1069443789
@@ -2049,6 +2049,52 @@ MonoBehaviour:
   frecuenciaDeGeneracion: 5
   puntoDeGeneracion: {fileID: 1158952014}
   player: {fileID: 567040391}
+--- !u!1 &1264520540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1264520542}
+  - component: {fileID: 1264520541}
+  m_Layer: 0
+  m_Name: SaveData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1264520541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264520540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740dfab0f291c2c49ae581fd40cc232d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textScorePref: {fileID: 1105046537}
+  textTimerPref: {fileID: 724183473}
+--- !u!4 &1264520542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264520540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1013.5389, y: 649.95337, z: -126.741455}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1290740017
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,7 +2438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigoPrefab: {fileID: 5134318620634323673, guid: 35ee61380f6dad24088c90cf86995dd2, type: 3}
-  frecuenciaDeGeneracion: 3
+  frecuenciaDeGeneracion: 7
   puntoDeGeneracion: {fileID: 1544721834}
   player: {fileID: 567040391}
 --- !u!1 &1773885271
@@ -2479,7 +2525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigoPrefab: {fileID: 5134318620634323673, guid: 35ee61380f6dad24088c90cf86995dd2, type: 3}
-  frecuenciaDeGeneracion: 4
+  frecuenciaDeGeneracion: 10
   puntoDeGeneracion: {fileID: 1876049834}
   player: {fileID: 567040391}
 --- !u!1 &2068046840
