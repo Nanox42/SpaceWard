@@ -114,6 +114,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d78742eb69e124cbe185d15aa7eaa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controlSonido: {fileID: 0}
+  sonidoDisparo: {fileID: 8300000, guid: 27caf8cafbc671644b022f95b88df23e, type: 3}
 --- !u!65 &3289209654300395343
 BoxCollider:
   m_ObjectHideFlags: 0

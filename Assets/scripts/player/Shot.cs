@@ -10,6 +10,9 @@ public class Shot : MonoBehaviour
     private float shotRateTime = 0;
     public float shotForce = 500;
 
+    public AudioSource controlSonido;
+    public AudioClip sonidoDisparo;
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -22,6 +25,8 @@ public class Shot : MonoBehaviour
                 shotRateTime = Time.time + shotRate;
                 Destroy(newbullet, 3);
                 Debug.Log("dispare una bala");
+
+                controlSonido.PlayOneShot(sonidoDisparo);
             }
         }
     }

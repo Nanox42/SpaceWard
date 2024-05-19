@@ -2865,6 +2865,14 @@ PrefabInstance:
       propertyPath: bullet
       value: 
       objectReference: {fileID: 4023234020915149967, guid: f0ef0c72b4e621947b642017bdbecff6, type: 3}
+    - target: {fileID: 843161372892455891, guid: ffbc13dc43b7a274982d4af89996d0ce, type: 3}
+      propertyPath: controlSonido
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 843161372892455891, guid: ffbc13dc43b7a274982d4af89996d0ce, type: 3}
+      propertyPath: sonidoDisparo
+      value: 
+      objectReference: {fileID: 8300000, guid: 27caf8cafbc671644b022f95b88df23e, type: 3}
     - target: {fileID: 7357680270300160906, guid: ffbc13dc43b7a274982d4af89996d0ce, type: 3}
       propertyPath: m_Name
       value: Player
