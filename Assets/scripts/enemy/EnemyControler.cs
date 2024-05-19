@@ -25,6 +25,7 @@ public class EnemyControler : MonoBehaviour
         Vector3 direccion = (jugador.position - transform.position).normalized;
         Vector3 nuevaPosicion = transform.position + direccion * velocidad * Time.deltaTime;
         transform.position = nuevaPosicion;
+        transform.LookAt(jugador.position);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,7 +33,6 @@ public class EnemyControler : MonoBehaviour
         if (other.tag == "Bullet" || other.tag == "Player")
         {
             objScore.GetComponent<ScoreManager>().score += puntos;
-            //ScoreManager.instance.score += puntos;
             Destroy(this.gameObject);
         }
     }
