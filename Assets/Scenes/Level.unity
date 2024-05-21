@@ -2868,7 +2868,7 @@ PrefabInstance:
     - target: {fileID: 843161372892455891, guid: ffbc13dc43b7a274982d4af89996d0ce, type: 3}
       propertyPath: controlSonido
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 156754004}
     - target: {fileID: 843161372892455891, guid: ffbc13dc43b7a274982d4af89996d0ce, type: 3}
       propertyPath: sonidoDisparo
       value: 
